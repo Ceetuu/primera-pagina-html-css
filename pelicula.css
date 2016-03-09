@@ -1,0 +1,144 @@
+*{
+	border: 0;
+	align-items: center;
+}
+h1{
+  font-size: 40px;
+  font-family: Consolas;
+  color: yellow;
+}
+.logo{
+	width: 184px;
+	height: 79px;
+}
+.sw{
+	align-self: center;
+}
+h3{
+	color: yellow;
+	font-family: courier;
+	font-size: 1.5em;
+	align-self: center;
+}
+.titulo{
+  background-image: url("http://static.batanga.com/sites/default/files/curiosidades.batanga.com/files/los-misterios-de-las-estrellas-1.jpg");
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+.allButton{
+	width: 25%;
+}
+.boton:hover{
+	transition: all .6s;
+	background: #325;
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+.boton{
+	background-color: black;
+	border: 3px solid yellow;
+	justify-content: center;
+	display: flex;
+	height: 3em;
+	transition: all .7s;
+}
+.escena{
+	height: 14em;
+	align-self: flex-end;
+	justify-content: center;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border: 4px solid yellow;
+}
+p{
+	font-family: Courier;
+}
+.contenido{
+	background-color: black;
+	height: 300px;
+	flex-wrap: wrap;
+}
+.escenaFavorita{
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+.descripcionEscena{
+	align-items: center;
+	text-align: justify;
+	background-color: black;
+	color: yellow;
+	height: 10em;
+}
+.bios{
+	justify-content: center;
+	height: 13em;
+	align-items: center;
+}
+.biografias{
+	background-image: url("http://i.imgbox.com/aayaWY5D.jpg");
+	justify-content: center;
+}
+.inter{
+	background-color: black;
+	text-align: center;
+	border-radius: 20px;
+	border: 4px solid yellow;
+	color: white;
+}
+.obi, .ani{
+	color: #00BFFF;
+}
+.qui{
+	color: #00FF00;
+}
+.personaje{
+	height: 7em;
+	border-radius: 70px;
+	border: 4px solid yellow;
+}
+.row{
+	width: 100%;
+	display: flex;
+}
+.col-1{
+	width: 8.33%;
+}
+.col-2{
+	width: 16.66%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.33%;
+}
+.col-8{
+	width: 66.66%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.66%;
+}
+.col-12{
+	width: 100%;
+}
