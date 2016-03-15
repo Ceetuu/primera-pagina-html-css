@@ -102,6 +102,12 @@ p{
 	border-radius: 70px;
 	border: 4px solid yellow;
 }
+.personaje:hover{
+	transition: all .2s;
+	height: 11em;
+	border-radius: 90px;
+	border: 4px solid purple;
+}
 .row{
 	width: 100%;
 	display: flex;
